@@ -1,0 +1,114 @@
+﻿html{
+    background-image: url("Картинки/aa.svg");
+background-image: url("Картинки/aa.svg");
+background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+ div{
+background-image: url("Картинки/aa.svg");
+background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: url(Картинки/gam867.cur), progress !important;
+}
+body{
+    background-image: url("Картинки/bb.svg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: url(Картинки/gam867.cur), progress !important;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    font-size: 4;
+    cursor: url(Картинки/gam867.cur), progress !important;
+}
+form{
+  display:inline-block;
+  padding:2px 20px 2px 20px;
+    cursor: url(Картинки/gam867.cur), progress !important;
+}
+textarea{
+    background: none;
+    border: none;
+    font: normal 16px "Calibri";
+    cursor: url(Картинки/gam867.cur), progress !important;
+}
+p{
+    display: inline-block;
+    cursor: url(Картинки/gam867.cur), progress !important;
+    
+}
+img{
+    padding: 10px 30px 2px 30px;
+    cursor: url(Картинки/gam867.cur), progress !important;
+    
+     
+}
+figure{
+    display: inline-block;
+    background-image: url(Картинки/1.1/png);
+    background-size: 100%;
+    border-style: solid;
+    border: 2px solid black;
+    cursor: url(Картинки/gam867.cur), progress !important;
+    
+}
+
+
+
+button {
+     cursor: url(Картинки/gam867.cur), progress !important;
+    
+ color: #000000;
+ box-shadow: 0 0 5px azure;
+ -moz-box-shadow: 0 0 5px azure;
+ -ms-box-shadow: 0 0 5px azure;
+ -o-box-shadow: 0 0 5px azure;
+ -webkit-box-shadow: 0 0 5px azure;
+}
+#social img {
+-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
+}
+button:hover {
+ box-shadow: 0 0 12px #6633FF;
+ -moz-box-shadow: 0 0 12px #6633FF;
+ -o-box-shadow: 0 0 12px #6633FF;
+ -ms-box-shadow: 0 0 12px #6633FF;
+ -webkit-box-shadow: 0 0 12px #6633FF;
+}
+#social img:hover {
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+    transform: rotate(360deg);}
+   .windows8 {
+	position: relative;
+	width: 78px;
+	height:78px;
+	margin:auto;
+}
+#digital_watch{
+letter-spacing: 5px;
+color: #777;
+margin-left:0%;
+margin-bottom:0%;
+font-size: 30px;
+border: 2px solid #777;
+padding: 10px;
+width: 160px;
+box-shadow: 1px 1px 3px #BCCCCF,
+-1px -1px 2px #BCCCCF;
+}
+
+

@@ -1,0 +1,39 @@
+html{
+    background-image: url("Картинки/aa.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+  
+}
+body{
+    background-image: url("Картинки/bb.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    font: normal 20px "Algerian";
+    
+    cursor: url(Картинки/gam867.cur), progress !important;
+}   
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    font-size: 4;
+    cursor: url(Картинки/gam867.cur), progress !important;
+}
+textarea{
+    background: none;
+    border: none;
+    font: normal 16px "Verdana";
+    cursor: url(Картинки/gam867.cur), progress !important;
+}
+img {
+    align-content: center;
+    cursor: url(Картинки/gam867.cur), progress !important;
+    padding: 25px  25px ;
+}
+div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+

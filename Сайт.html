@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<title></title>
+<Head>
+    <script type="text/javascript">
+function digitalWatch() {
+var date = new Date();
+var hours = date.getHours();
+var minutes = date.getMinutes();
+var seconds = date.getSeconds();
+if (hours < 10) hours = "0" + hours;
+if (minutes < 10) minutes = "0" + minutes;
+if (seconds < 10) seconds = "0" + seconds;
+document.getElementById("digital_watch").innerHTML = hours + ":" + minutes + ":" + seconds;
+setTimeout("digitalWatch()", 1000);
+}
+</script>
+    <script>
+var t, a;
+function example(e){
+clearTimeout(t);
+var w = e.width;
+if (a) {
+t = setInterval(function () {
+if (w <= 450) clearTimeout(t); // Стили на уменьшение
+e.style.cursor = 'zoom-in';
+e.style.borderRadius = '1px';
+e.style.boxShadow = '2px 2px 5px #fff'
+e.width = w--;
+}, 5);
+}
+else {
+t = setInterval(function () {
+if (w >= 650) clearTimeout(t);
+// Стили на увеличение
+e.style.cursor = 'zoom-out';
+e.style.borderRadius = '5px';
+e.style.boxShadow = '2px 2px 5px #888'
+e.width = w++;
+}, 5);
+}
+a = !a;
+}
+</script>
+    <SCRIPT type="text/javascript">
+document.ondragstart = test;
+//запрет на перетаскивание
+document.onselectstart = test;
+//запрет на выделение элементов страницы
+document.oncontextmenu = test;
+//запрет на выведение контекстного меню
+function test() {
+return false
+}
+</SCRIPT>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<meta charset="utf-8">
+<br><br><link href="style.css" rel="stylesheet" type="text/css">
+<base target="_blank">
+     <style type="text/css">
+  </style>
+</Head><div>
+<body onload="digitalWatch()">
+    <div class="bgtop"></div>
+    <br><br><br><br><br><br><br><br><br><br>
+<center><p><img src="Картинки/Логотип.jpg"></p><hr>
+    <form method="get" action="Z:/Сайт/Главная.html">
+<button id="block" type="submit">Главная</button>
+    </form>
+    <form id="block" method="get" action="Z:/Сайт/Блог.html">
+<button type="submit">Блог</button>
+    </form>
+<form id="block" method="get" action="Z:/Сайт/Контакты.html">
+<button type="submit">Контакты</button>
+    </form><hr>
+<textarea readonly cols="100" rows="17">
+   Здравствуйте, добро пожаловать на мой сайт! Здесь вы можете ознакомится с некоторыми архитектурными стилями и тем самым расширить свой кругозор.
+
+Архитекту́ра, или зо́дчество — искусство и наука строить, проектировать здания и сооружения (включая их комплексы), а также сама совокупность зданий и сооружений, создающих пространственную среду для жизни и деятельности человека. Архитектура создает материально организованную среду, необходимую людям для их жизни и деятельности, в соответствии с их устремлениями, а также современными техническими возможностями и эстетическими воззрениями. В архитектуре взаимосвязаны функциональные (назначение, польза), технические (прочность, долговечность) и эстетические (красота) свойства объектов.
+
+Архитектурные работы часто воспринимаются как произведения искусства, как культурные или политические символы. Исторические цивилизации характеризуются своими архитектурными достижениями. Архитектура позволяет выполняться жизненным функциям общества, в то же время направляет жизненные процессы. Однако архитектура создается в соответствии с возможностями и потребностями людей. На сайте вы можете ознакомится с некоторыми архитектурными стилями. 
+</textarea><hr>
+    <p><figure><a href="Древний мир.html"><img src="Картинки/Без названия (2).jpg" width="200" height="200" title="Пирами́да Хеопса (Хуфу) или Великая пирамида Гизы — крупнейшая из египетских пирамид, памятник архитектурного искусства Древнего Египта; единственное из «Семи чудес света», сохранившееся до наших дней, и самое древнее из них: её возраст оценивается примерно в 4500 лет."></a><figcaption>Древний мир</figcaption>
+        </figure>
+    <figure><a href="Романский стиль.html"><img src="Картинки/4.jpg" width="200" height="200" title="Романская архитектура: средневековый немецкий монастырь, аббатство Мария Лаах."></a><figcaption>Романский стиль</figcaption></figure>
+    <figure><a href="Готика.html"><img src="Картинки/5.jpg" width="200" height="200" title="Эксетерский собор или Кафедральный собор Апостола Петра в Эксетере — кафедральный собор англиканской церкви в Эксетере, Девон, Юго-Западная Англия, Великобритания."></a><figcaption>Готика</figcaption></figure>
+</p><br>
+    <p><figure><a href="Возрождение.html"><img src="Картинки/4.1.jpg" width="200" height="200" title="Палаццо Фарнезе (итал. Palazzo Farnese) — римский дворец (палаццо), считается одним из лучших образцов ренессансного стиля. Уже больше ста лет во дворце размещается посольство Франции."></a><figcaption>Возрождение</figcaption></figure>
+<figure><a href="Классицизм.html"><img src="Картинки/5.1.jpg" width="200" height="200" title="Зеркальная галерея (фр. Galerie des Glaces) — самый известный интерьер Версальского дворца. Вместе с исчезнувшей лестницей Послов и дворцовой Часовней входила в тройку самых масштабных интерьеров резиденции Людовика XIV. Размеры зала в плане 73,0 м × 10,5 м. Высота — 12,3 м."></a><figcaption>Классицизм</figcaption></figure>
+        <figure><a href="Модернизм.html"><img src="Картинки/6.jpg" width="200" height="200" title="Королевский национальный театр, также известный как Национальный театр и Национальный театр Великобритании — один из трёх наиболее известных в качестве финансируемых за счёт публичных средств театров Великобритании."></a><figcaption>Модернизм</figcaption></figure>
+</p><br><br><br>
+   <figure> Мы в соц.сетях: <div id="social">
+<a target="_blank" rel="nofollow" href="https://facebook.com">
+<img border="0" src="https://3.bp.blogspot.com/-0KyMme_T5lc/U6cUk9eMKJI/AAAAAAAAIAo/_in4gv6I9To/s320/facebook.png"style="margin-right: 1px;" /></a>
+    <a target="_blank" rel="nofollow" href="https://google.com">
+<img border="0" src="https://3.bp.blogspot.com/-6kC_GqGGU-Q/U6cUlKraBxI/AAAAAAAAIAw/lw7-ybo7c6w/s320/google_plus.png"style="margin-right: 1px;" /></a>
+<a target="_blank" rel="nofollow" href="https://instagram.png">
+<img border="0" src="https://4.bp.blogspot.com/-v6GSE7a-vrQ/U6cUlBrZF-I/AAAAAAAAIAs/uz3l6_qBRoI/s320/instagram.png"style="margin-right: 1px;" /></a>
+    <a target="_blank" rel="nofollow" href="https://youtube.com">
+<img border="0" src="https://1.bp.blogspot.com/-a4x7q0UPv5o/U6cUpL9-SkI/AAAAAAAAIBU/x7mljlo1SCI/s320/youtube_2.png"style="margin-right: 1px;" /></a>
+        <a target="_blank" rel="nofollow" href="https://vk.com">
+<img border="0" src="https://2.bp.blogspot.com/-Pz8f3J8FQH8/U6cUn1RF9eI/AAAAAAAAIBE/nFMVP_uNmrM/s320/vk_2.png"style="margin-right: 1px;" /></a>
+        <a target="_blank" rel="nofollow" href="https://odnoklassniki.com">
+<img border="0" src="https://1.bp.blogspot.com/-ZbPa__BooLQ/U6cUm2V6PWI/AAAAAAAAIA4/455nadQNWQo/s320/odnoklassniki.png"style="margin-right: 1px;" /></a>
+    </div></figure><br><p id="digital_watch"></p>
+    <br><br><br>
+<p><img src="Картинки/Логотип.jpg"></p>
+</center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</body></div>
+    
+</html>
